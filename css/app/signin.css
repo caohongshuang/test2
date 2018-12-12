@@ -1,0 +1,231 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #181E23;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans CJK SC, WenQuanYi Micro Hei, Arial, sans-serif;
+}
+
+.container-fluid {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.form-container {
+    margin: 0 auto;
+    display: table;
+    height: 100%;
+}
+
+.form-inner-container {
+    display: table-cell;
+    vertical-align: middle;
+    width: 350px;
+    height: 356px;
+}
+
+.form-signin {
+    /*padding: 20px 40px;*/
+    /*box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.30);*/
+    /*border-radius: 8px;*/
+    background: #FFFFFF;
+    position: relative;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin .form-title {
+    display: inline-block;
+    width: 500px;
+    height: 72px;
+    background-image: linear-gradient(-90deg, #0057FF 0%, #028DFF 100%);
+}
+
+.form-signin .form-title .text {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+img.logo {
+    height: 24px;
+    width: 108px;
+}
+
+#inputUsername {
+    margin-top: 60px;
+    margin-left: 40px;
+    height: 48px;
+    width: 420px;
+    font-size: 14px;
+}
+
+#inputPassword {
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 48px;
+    width: 420px;
+    font-size: 14px;
+}
+
+.background-img {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.background-img img.stretch {
+    width: 100%;
+    height: 100%;
+}
+
+.submit-btn {
+    background: #DE9112;
+    border: 1px solid #C48011;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    height: 48px;
+    margin: 10px 40px;
+    width: 420px;
+}
+
+input[type="text"],
+input[type="password"] {
+    background: #FFFFFF;
+    border: 1px solid #D8DEE4;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none !important;
+    border: 1px solid #F78A09 !important;
+    box-shadow: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+div.forgot-password {
+    margin-top: 64px;
+    margin-right: 40px;
+    text-align: right;
+}
+
+.forgot-password .separator-line {
+    display: inline-block;
+    border-right: 1px solid #D8DEE4;
+    height: 12px;
+    width: 1px;
+    vertical-align: middle;
+}
+
+div.signup {
+    text-align: center;
+}
+
+.signup-link {
+    margin-right: 12px;
+}
+
+.forgot-password-link {
+    margin-left: 12px;
+}
+
+a {
+    font-size: 12px;
+    color: #3C3C3C;
+    display: inline;
+}
+
+a:hover {
+    color: #167CC7;
+    text-decoration: none;
+}
+
+label.login-warning-tip {
+    position: absolute;
+    top: 310px;
+    left: 40px;
+    font-size: 12px;
+    color: #FF3000;
+    font-weight: normal;
+}
+
+.third-login {
+    margin-top: 16px;
+    height: 96px;
+}
+
+.third-login .separator-title {
+    margin: 0 40px;
+}
+
+.third-login .separator-hr {
+    display: inline-block;
+    vertical-align: middle;
+    width: 166px;
+    height: 1px;
+    border: none;
+    border-top: 1px solid #D8DEE4;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.third-login .separator-text {
+    font-size: 12px;
+    color: #BEC4CA;
+    margin: 0px 8px;
+}
+
+.third-login .login-area {
+    margin-top: 16px;
+    margin-left: 100px;
+}
+
+.third-login .login-area ul {
+    list-style: none;
+}
+
+.third-login .login-area ul > li {
+    float: left;
+    margin-right: 110px;
+}
+
+.third-login .login-area span {
+    font-size: 14px;
+    color: #B4B4B4;
+}

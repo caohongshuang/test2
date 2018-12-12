@@ -1,0 +1,116 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
+}
+
+.container-fluid {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.form-container {
+    margin: 0 auto;
+    display: table;
+    height: 100%;
+}
+
+.form-inner-container {
+    display: table-cell;
+    vertical-align: middle;
+    width: 350px;
+    height: 356px;
+}
+
+.form-signup {
+    padding: 20px 40px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.30);
+    border-radius: 8px;
+    background: #F6F6F6;
+}
+
+.form-signup .form-signup-heading,
+.form-signup .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signup .checkbox {
+    font-weight: normal;
+}
+
+.form-signup .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signup .form-control:focus {
+    z-index: 2;
+}
+
+.form-signup input[type="text"] {
+    margin-bottom: -1px;
+    margin-top: 30px;
+    height: 40px;
+    border: 1px solid #C8C8C8;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 1px solid #F78A09;
+    box-shadow: none;
+}
+
+img.logo {
+    height: 24px;
+    width: 108px;
+}
+
+.submit-btn {
+    background: #DE9112;
+    border: 1px solid #C48011;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #FFFFFF;
+    height: 40px;
+    margin-top: 23px;
+    margin-bottom: 17px;
+    width: 100%;
+}
+
+button:focus {
+    outline: none;
+}
+
+div.forgot-password {
+    text-align: right;
+}
+
+div.signup {
+    text-align: center;
+}
+
+a {
+    font-size: 12px;
+    color: #3C3C3C;
+    display: inline;
+}
+
+a:hover {
+    color: #167CC7;
+    text-decoration: none;
+}
+
+.help-block {
+    color: red;
+}
